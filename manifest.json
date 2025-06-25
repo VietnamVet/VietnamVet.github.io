@@ -1,0 +1,81 @@
+{
+  "id": "/Fruit-Tapper/",
+  "name": "Fruit Tapper",
+  "short_name": "FruitTap",
+  "description": "A simple, fun fruit tapping game.",
+  "lang": "en-US",
+  "dir": "auto",
+  "start_url": ".",
+  "scope": ".",
+  "scope_extensions": [
+    {
+      "origin": "https://vietnamvet.github.io",
+      "path": "/Fruit-Tapper/"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "categories": [
+    "games",
+    "arcade"
+  ],
+  "screenshots": [
+    {
+      "src": "https://vietnamvet.github.io/Fruit-Tapper/Screenshot_20250624_210100_Chrome.jpg",
+      "sizes": "360x800",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://vietnamvet.github.io/Fruit-Tapper/Screenshot_20250624_210103_Chrome.jpg",
+      "sizes": "360x800",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://vietnamvet.github.io/Fruit-Tapper/Screenshot_20250624_210104_Chrome.jpg",
+      "sizes": "360x800",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://vietnamvet.github.io/Fruit-Tapper/Screenshot_20250624_210110_Chrome.jpg",
+      "sizes": "360x800",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://vietnamvet.github.io/Fruit-Tapper/Screenshot_20250624_210114_Chrome.jpg",
+      "sizes": "360x800",
+      "type": "image/jpeg"
+    }
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "permissions": [
+    "periodic-background-sync"
+  ],
+  "gcm_sender_id": "103953800507",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "share_target": {
+    "action": ".",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text"
+    }
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "iarc_rating_id": "ESRB_E"
+}
